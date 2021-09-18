@@ -46,6 +46,10 @@ body{
     word-wrap: 3px;
     outline: none;
     font-size: 16px;
+    color: #555555;
+}
+
+::placeholder{
     color: #5555;
 }
 

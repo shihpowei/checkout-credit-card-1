@@ -29,31 +29,35 @@
                 </div>
                 <div class="card space icon-relative">
                     <label class="label">信用卡卡號</label>
-                    <input type="text" class="input" name="card_number" placeholder="卡號">
+                    <input type="text" class="input" name="card_number" placeholder="卡號"
+                        data-mask="0000 0000 0000 0000">
                     <i class="far fa-credit-card"></i>
                 </div>
                 <div class="card-group space">
                     <div class="card-item icon-relative">
                         <label class="label">信用卡有效年月</label>
-                        <input type="text" class="input" name="expiry_date" placeholder="00 / 00">
+                        <input type="text" class="input" name="expiry_date" placeholder="00 / 00" data-mask="00 / 00">
                         <i class="far fa-calendar-alt"></i>
                     </div>
                     <div class="card-item icon-relative">
                         <label class="label">信用卡背面末三碼</label>
-                        <input type="text" class="input" name="cvc" placeholder="000">
+                        <input type="text" class="input" name="cvc" placeholder="000" data-mask="000">
                         <i class="fas fa-lock"></i>
                     </div>
                 </div>
 
                 <div class="btn">
-                    pay
+                    付款
                 </div>
 
             </div>
         </div>
     </div>
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+        integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
